@@ -7,7 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <h>Hello Github</h>
-    <p>HALO</p>
+    <?php
+        function test($str)
+        {
+            $s = substr($str, strlen($str)-1);
+            return $s.$str.$s;
+        }
+    echo test("Red")."\n";
+    echo test("Green")
+    ?>
 </body>
 </html>

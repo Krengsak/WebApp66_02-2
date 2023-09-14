@@ -7,7 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <h>Hello Github</h>
-    <p>HALO</p>
+    <?php
+        function calsalary()
+        {
+            $amout = 12*65000
+            echo "this is my salary".$amout."bath";
+        }
+    calsalary();
+    ?>
+    
 </body>
 </html>
